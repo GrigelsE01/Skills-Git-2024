@@ -46,7 +46,7 @@ public class HeroMovement : MonoBehaviour {
 			vulnerable = true;
 			Debug.Log ("vulnerable = true!");
 			StartCoroutine ("VulnerableDeBuff");
-		}
+		} 
 	}
 
 	IEnumerator VulnerableDeBuff()
