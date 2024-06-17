@@ -23,10 +23,12 @@ public class Navigation : MonoBehaviour {
 
 	public void ClickedButtonA(){
 		Debug.Log ("Button A Clicked!");
+		PlayerPrefs.SetString ("WhichButtonClicked", "A");
 	}
 
 	public void ClickedButtonB(){
 		Debug.Log ("Button B Clicked!");
+		PlayerPrefs.SetString ("WhichButtonClicked", "B");
 	}
 
 	public void ClickedExit(){
