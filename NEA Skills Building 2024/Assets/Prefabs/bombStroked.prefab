@@ -22,6 +22,8 @@ GameObject:
   - component: {fileID: 212410125381478952}
   - component: {fileID: 61053078419211932}
   - component: {fileID: 82481397189867918}
+  - component: {fileID: 114099573657023218}
+  - component: {fileID: 114874454250887176}
   m_Layer: 0
   m_Name: bombStroked
   m_TagString: vulnerable
@@ -36,7 +38,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1096949714170966}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.208147, y: -0.26968145, z: 0}
+  m_LocalPosition: {x: 5.5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -86,7 +88,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 3.974721
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -162,6 +164,29 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &114099573657023218
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1096949714170966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cae049d0387483e4183aaa14da06b96a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114874454250887176
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1096949714170966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5e113089e19e4844948152fe10a3676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bomb: {fileID: 1096949714170966}
 --- !u!212 &212410125381478952
 SpriteRenderer:
   m_ObjectHideFlags: 1
